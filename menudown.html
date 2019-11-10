@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MenuDown</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<!--ниспадающее меню-->
+   <div class="dropdown">
+       <button class="btn btn-default" id="dropwnMenu"
+               tupe="button" data-toggle="dropdown">
+           Меню <span class="caret"></span>
+       </button>
+       <ul class="dropdown-menu">
+           <li><a href="#">1</a> </li>
+           <li><a href="#">2</a> </li>
+           <li><a href="#">3</a> </li>
+       </ul>
+   </div>
+<br>
+<!--разделитель-->
+<div class="dropup">
+    <button class="btn btn-default" id="dropdown_menu"
+            type="button" data-toggle="dropdown">
+        МЕню<span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a href="#">1</a> </li>
+        <li class="divider"></li>
+        <li><a href="#">2</a> </li>
+        <li class="divider"></li>
+        <li><a href="#">2</a> </li>
+        <li class="divider"></li>
+    </ul>
+</div>
+<br>
+<!--блокированный пункт мень-->
+<div class="divider">
+    <!--открытое меню class="dropdown open"-->
+    <button class="btn btn-default"
+            id="dropdownmenu1" type="button"
+            data-toggle="dropdown">
+        Меню <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-right">
+        <li class="disabled"><a href="#">1</a> </li>
+        <li class="disabled"></li>
+        <li><a href="#">2</a> </li>
+        <li><a href="#"></a> </li>
+    </ul>
+</div>
+<br>
+<!--кнопка со стрелкой-->
+<div class="dropdown btn-group">
+    <button class="btn btn-default disabled"
+            id="dropdownMenu2" type="button">меню</button>
+    <button type="button" class="btn
+btn-default dropdown-toggle" data-toggle="dropdown">
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-right">
+        <li><a href="#">1</a> </li>
+        <li class="divider"></li>
+        <li><a href="#">2</a> </li>
+        <li><a href="#">3</a> </li>
+    </ul>
+</div>
+<br><br>
+<button
+</body>
+</html>
