@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>popover</title>
+    <META name="viewport" content="width=device-width", initial-scale="1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h3>popover example</h3>
+    <a href="#" data-toggle="popover"
+       title="popover header"
+       data-content="hjhfvjdfhvbjbfd">toggle popover</a>
+</div>
+<div class="container">
+    <h3>popover example</h3>
+    <ul class="list-inline">
+        <li><a href="#" title="header"
+        data-toggle="popover"
+               data-placement="top"
+               data-content="content">top</a></li>
+        <li><a href="#" title="header"
+               data-toggle="popover"
+               data-placement="bottom"
+               data-content="content">bottom</a></li>
+        <li><a href="#" title="header"
+               data-toggle="popover"
+               data-placement="left"
+               data-content="content">left</a></li>
+        <li><a href="#" title="header"
+               data-toggle="popover"
+               data-placement="right"
+               data-content="content">right</a></li>
+    </ul>
+</div>
+<div class="container">
+    <h3>popover example</h3>
+    <a href="#" title="заголовок"
+       data-toggle="popover" data-trigger="focus"
+       data-content="кликните гдеугодня чтобы закрыть меню">
+        click me</a>
+</div>
+<div class="container">
+    <h3>popover example</h3>
+    <a href="#" title="header"
+       data-toggle="popover"
+       data-content="some content">click me</a><br>
+    <a href="#" title="header"
+       data-toggle="popover"
+       data-trigger="hover"
+       data-content="some content">hover over me</a><br>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+    });
+</script>
+</body>
+</html>
