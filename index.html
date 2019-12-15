@@ -1,367 +1,446 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Company</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/com.css">
-</head>
-<body id="myPage" data-spy="scroll"
-      data-target=".navbar" data-offset="60">
+<!doctype html>
+<html lang="ru">
+  <head>
+    <title>Главная / Compass</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/simple.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.arcticmodal-0.3.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+  </head>
+  <body>
 
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle"
-                    data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#myPage">StarCode</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#services">SERVICES</a></li>
-                <li><a href="#portfolio">PORTFOLIO</a></li>
-                <li><a href="#pricing">PRICING</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<div class="jumbotron text-center">
-    <h1>Company</h1>
-    <p>We specialize in blablabla</p>
-    <form>
-        <div class="input-group">
-            <input type="email"
-                   class="form-control"
-                   size="50"
-                   placeholder="Email Address" required>
-            <div class="input-group-btn">
-                <button type="button"
-                        class="btn btn-danger">Subscribe
+    <!-- Первая Секция -->
+    <header class="main-page-header">
+        <div class="main-heading">
+          <div class="container">
+            <div class="row align-items-center d-flex">
+              <div class="col-5 col-md-3 col-lg-2">
+                <a href="#">
+                  <img  class="img-fluid" src="images/logo.png" alt="Compass">
+                </a>
+              </div>
+              <div class="col-lg-7 align-items-center d-none d-lg-flex justify-content-center">
+                <nav> 
+                  <ul class="main-menu d-flex">
+                      <li class="main-menu__item active">
+                        <a class="ls-100" href="index.html">
+                          Главная
+                        </a>
+                      </li>
+
+                      <li class="main-menu__item">
+                        <a class="ls-100" href="#">
+                          О компании
+                        </a>
+                      </li>
+
+                      <li class="main-menu__item d-none d-xl-block">
+                        <a class="ls-100" href="#">
+                          ВНЖ и ПМЖ в Болгарии
+                        </a>
+                      </li>
+
+                      <li class="main-menu__item">
+                        <a class="ls-100" href="#">
+                          Недвижимость и Переезд
+                        </a>
+                      </li>
+
+                      <li class="main-menu__item">
+                        <a class="ls-100" href="#">
+                          Контакты
+                        </a>
+                      </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="d-none  col-md-8 col-lg-3 d-md-flex justify-content-end">
+                <div class="phones align-items-center d-flex">
+                  <button class="phone__color-blue" data-target="#exampleModal">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                  </button>
+                  <ul class="phones__list">
+                    <li class="phones__item">
+                      <a href="#">
+                        +7 (495) 12-321-345
+                      </a>
+                    </li>  
+                    <li>
+                      <a href="#">
+                        +7 (495) 12-321-345
+                      </a>
+                    </li>  
+                  </ul>
+                </div>
+              </div>
+              <div class="col-7 col-md-1 d-flex justify-content-end">
+                <button class="humburger-btn d-lg-none">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
                 </button>
+              </div>
+              <div class="small-menu slow">
+                 <ul class="main-menu humburger-btn">
+                      <li class="main-menu__item active">
+                        <a class="ls-100" href="index.html">
+                          Главная
+                        </a>
+                      </li>
+                      <li class="main-menu__item">
+                        <a class="ls-100" href="about.html">
+                          О компании
+                        </a>
+                      </li>
+                      <li class="main-menu__item d-none">
+                        <a class="ls-100" href="#">
+                          ВНЖ и ПМЖ в Болгарии
+                        </a>
+                      </li>
+                      <li class="main-menu__item">
+                        <a class="ls-100" href="move.html">
+                          Недвижимость и Переезд
+                        </a>
+                      </li>
+                      <li class="main-menu__item">
+                        <a class="ls-100" href="kontakts.html">
+                          Контакты
+                        </a>
+                      </li>
+                  </ul>
+              </div>
             </div>
+          </div>
         </div>
-    </form>
-</div>
-<!-- Container (About Section) -->
-<div id="about" class="container-fluid">
-    <div class="row">
-        <div class="col-sm-8">
-            <h2>Описание нашей академии </h2><br>
-            <h4>Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore
-                et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea
-                commodo consequat.</h4><br>
-            <p>Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi
-                ut aliquip ex ea commodo consequat.
-                Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum
-                consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat.</p>
-            <br>
-            <a href="#" target="_blank">
-            <button class="btn btn-default btn-lg">
-            Оставайтесь на связи</button>
-            </a>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-signal logo">
+        <div class="main-page-offer">
+            <div class="container">
+            <h1 class="main-title">
+            <span class="main-title__item-big">
+                Болгария
+             </span>
+            <span class="main-title__item main-title__item-small">
+                Ждет вас
             </span>
+          </h1>
         </div>
-    </div>
-</div>
-<div class="container-fluid bg-grey">
-    <div class="row">
-        <div class="col-sm-4">
-            <span class="glyphicon
-            glyphicon-globe logo slideanim"></span>
         </div>
-        <div class="col-sm-8">
-            <h2>Our Values</h2><br>
-            <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.</h4><br>
-            <p><strong>VISION:</strong> Our vision Lorem ipsum
-                dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat.
-                Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                ea commodo consequat.</p>
-        </div>
-    </div>
-</div>
-<!-- Container (Services Section) -->
-<div id="services" class="container-fluid text-center">
-    <h2>SERVICES</h2>
-    <h4>What we offer</h4>
-    <br>
-    <div class="row slideanim">
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-glass logo-small"></span>
-            <h4>POWER</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-heart logo-small"></span>
-            <h4>LOVE</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-lock logo-small"></span>
-            <h4>JOB DONE</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-        </div>
-    </div>
-    <br><br>
-    <div class="row slideanim">
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-leaf logo-small"></span>
-            <h4>GREEN</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-certificate logo-small"></span>
-            <h4>CERTIFIED</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-wrench logo-small"></span>
-            <h4 style="color:#303030;">HARD WORK</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-        </div>
-    </div>
-</div>
-<!-- Container (Portfolio Section) -->
-<div id="portfolio" class="container-fluid text-center bg-grey">
-    <h2>Portfolio</h2><br>
-    <h4>What we have created</h4>
-    <div class="row text-center slideanim">
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="img/paris.jpg" alt="Paris"
-                     width="400" height="300">
-                <p><strong>Paris</strong></p>
-                <p>Yes, we built Paris</p>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="img/newyork.jpg" alt="New York" width="400" height="300">
-                <p><strong>New York</strong></p>
-                <p>We built New York</p>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="img/sanfran.jpg" alt="San Francisco" width="400" height="300">
-                <p><strong>San Francisco</strong></p>
-                <p>Yes, San Fran is ours</p>
-            </div>
-        </div>
-    </div><br>
-
-    <h2>What our customers say</h2>
-    <div id="myCarousel" class="carousel slide text-center"
-         data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel"
-                data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel"
-                data-slide-to="1"></li>
-            <li data-target="#myCarousel"
-                data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
-            </div>
-            <div class="item">
-                <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
-            </div>
-            <div class="item">
-                <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
-            </div>
-        </div>
-
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+      <button class="arrow-header scroll-arrow active">
+        <a href="#" class="scrollto" data-target="#advantages">
+        <i class="fa fa-angle-down" aria-hidden="true"></i>
         </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-</div>
+      </button>
+  </header>
 
-<!-- Container (Pricing Section) -->
-<div id="pricing" class="container-fluid">
-    <div class="text-center">
-        <h2>Pricing</h2>
-        <h4>Choose a payment plan that works for you</h4>
-    </div>
-    <div class="row slideanim">
-        <div class="col-sm-4 col-xs-12">
-            <div class="panel panel-default text-center">
-                <div class="panel-heading">
-                    <h1>Basic</h1>
+      <!-- Вторая секция -->
+      <section id="advantages" class="advantages">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="advantages__title">
+                Наши преимущества
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 d-flex">
+              <div class="merit">
+                <div class="merit__img merit__img_true"></div>
+                <div class="merit__title title">
+                  Надежность
                 </div>
-                <div class="panel-body">
-                    <p><strong>20</strong> Lorem</p>
-                    <p><strong>15</strong> Ipsum</p>
-                    <p><strong>5</strong> Dolor</p>
-                    <p><strong>2</strong> Sit</p>
-                    <p><strong>Endless</strong> Amet</p>
+                <p class="merit__text">
+                  Мы всегда придем к вам на помощь в решении самых неоднозначных вопросов
+                </p>
+              </div>
+             </div>
+            <div class="col-md-6 col-lg-4 d-flex">
+              <div class="merit">
+                <div class="merit__img merit__img_confidence"></div>
+                <div class="merit__title title">
+                  Достоверность
                 </div>
-                <div class="panel-footer">
-                    <h3>$19</h3>
-                    <h4>per month</h4>
-                    <button class="btn btn-lg">Sign Up</button>
+                <p class="merit__text">
+                  Достоверность - главный принцип нашей работы. Мы знаем все тонкости переезда в Болгарию и оформления соответствующих документов
+                </p>
+              </div>
+             </div>
+            <div class="col-lg-4 d-flex">
+                <div class="merit">
+                  <div class="merit__img merit__img_smart"></div>
+                  <div class="merit__title title">
+                    Компетентность
+                  </div>
+                  <p class="merit__text text-center">
+                    Наши специалисты с большим опытом работы помогут разобраться во всех юридических тонкостях переезда на ПМЖ в Болгарию
+                  </p>
                 </div>
             </div>
+          </div>
         </div>
-        <div class="col-sm-4 col-xs-12">
-            <div class="panel panel-default text-center">
-                <div class="panel-heading">
-                    <h1>Pro</h1>
-                </div>
-                <div class="panel-body">
-                    <p><strong>50</strong> Lorem</p>
-                    <p><strong>25</strong> Ipsum</p>
-                    <p><strong>10</strong> Dolor</p>
-                    <p><strong>5</strong> Sit</p>
-                    <p><strong>Endless</strong> Amet</p>
-                </div>
-                <div class="panel-footer">
-                    <h3>$29</h3>
-                    <h4>per month</h4>
-                    <button class="btn btn-lg">Sign Up</button>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4 col-xs-12">
-            <div class="panel panel-default text-center">
-                <div class="panel-heading">
-                    <h1>Premium</h1>
-                </div>
-                <div class="panel-body">
-                    <p><strong>100</strong> Lorem</p>
-                    <p><strong>50</strong> Ipsum</p>
-                    <p><strong>25</strong> Dolor</p>
-                    <p><strong>10</strong> Sit</p>
-                    <p><strong>Endless</strong> Amet</p>
-                </div>
-                <div class="panel-footer">
-                    <h3>$49</h3>
-                    <h4>per month</h4>
-                    <button class="btn btn-lg">Sign Up</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
-    <h2 class="text-center">CONTACT</h2>
-    <div class="row">
-        <div class="col-sm-5">
-            <p>Contact us and we'll get back to you within 24 hours.</p>
-            <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-            <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-            <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
-        </div>
-        <div class="col-sm-7 slideanim">
+      </section>
+      <!-- Третья секция -->
+      <section id="moven" class="moven">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-6 form-group">
-                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                </div>
-                <div class="col-sm-6 form-group">
-                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                </div>
+               <div class="col-lg-12">
+                  <h3 class="moven__title">
+                    Переезд в Болгарию
+                  </h3>
+               </div>
             </div>
-            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-            <div class="row">
-                <div class="col-sm-12 form-group">
-                    <button class="btn btn-default pull-right" type="submit">Send</button>
+          <div class="row">
+              <div class="col-lg-5 ml-lg-auto mr-lg-auto text-center">
+                <div class="moven__text">
+                  <span>
+                    «Если Вам не нравится то место, где вы находитесь - смените его, Вы же не дерево» <br> 
+                  </span>
+                  <p class="moven__text-name">Джим Рон</p>
                 </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 ml-lg-auto mr-lg-auto align-items-center">
+              <div class="block">
+                  <img class="img1" src="images/arrow2.png" alt="pictures" >
+                  <p class="block__text-1">
+                    Пришло время и перед Вами стоит вопрос
+                  </p>
+                   <p class="block__text-2">
+                    Как переехать в Болгарию на Внж или ПМЖ?
+                  </p>
+                  </div>
+                  <img class="img2" src="images/arrow2.png" alt="pictures">
+              </div>
             </div>
+              <div class="row">
+                 <div class="col-lg-12">
+                    <h3 class="know__title">
+                      Мы знаем ответ
+                    </h3>
+                  </div>
+              </div>
+              <div class="row">    
+                  <div class="col-lg-8 ml-lg-auto mr-lg-auto">  
+                    <div class="know__text" >Подберем для Вас оптимальный ваиант и предложим лучшие условия!</div>  
+                 </div>
+              </div>
+              <div class="row">
+                 <div class="col-lg-3 ml-lg-auto mr-lg-auto">  
+                     <button class="know__btn">Узнать больше</button>
+                 </div>
+              </div>  
+            </div>        
+      </section>
+      <!-- Четвертая секция -->
+  <section id="property" class="property">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-12 ml-lg-auto mr-lg-auto">
+                <h3 class="property__title">
+                  Недвижимость и транспортные услуги
+                </h3>
+          </div>
+           <div class="col-lg-8 ml-lg-auto mr-lg-auto">
+              <div class="property__images img-fluid">
+                <img src="images/img1.png" class="property__images-1 img-fluid">
+                <img src="images/img2.png" class="property__images-2 img-fluid">
+              </div>
+          </div>
+          <div class="col-lg-8 ml-lg-auto mr-lg-auto">
+              <div class="property__block-1">
+                <div class="property__name">
+                  Недвижимость и транспортные услуги
+                </div>
+              <div class="property__text-1">
+                Или хотите выгодно инвестировать в  заграничную недвижимость? В любом случае - подходящий вариант уже ждет Вас! Большой выбор объектов жилой и коммерческой недвижимости и профессиональный сервис позволит провести сделку с удовольствием и получить нужный результат
+              </div>
+              <img src="images/circle.png" alt="" class="circle_blue">
+             </div>   
+          </div>
+          <div class="col-lg-8 ml-lg-auto mr-lg-auto">
+              <div class="property__block-2">
+                <div class="property__text-2">
+                  Если Ваши чемоданы уже собраны и Вы готовы к переезду, рады предложить Вам транспортные услуги по перевозке личный вещей в Болгарию. Для успешного размещения на новом месте жительства мы поможем перевести Ваши вещи в сохранности.
+                </div>
+             </div>   
+                <div class="col-lg-4 ml-lg-auto mr-lg-auto">  
+                 <button class="property__btn">Узнать больше</button>
+             </div>
+          </div>
+        </div>  
+    </div>     
+  </section>  
+
+  <!-- Пятая секция -->
+  <section id="clients" class="clients">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mr-auto ml-auto">
+          <h3 class="rewiews__title">
+               Отзывы наших клиентов
+          </h3>
+        </div> 
+      </div>
+      <div class="row">          
+          <div class="col-md-10 ml-md-auto mr-md-auto">
+                <div class="slider">
+                  <div class="slide text-center d-md-flex">
+                    <img class="slide__img" src="images/photo.png">
+                      <div class="slide__content">
+                          <div class="slide__info flex-md-wrap d-md-flex justify-content-between align-items-center">
+                            <h3 class="slide__name">Диана апасова</h3>
+                            <a class="slide__link" href="#">vk.com/apasova</a>
+                            <p class="slide__route">Москва → София</p>
+                          </div>
+                          <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+                      </div>
+                    </div>
+                    <div class="slide text-center d-md-flex">
+                        <img class="slide__img" src="images/photo.png">
+                          <div class="slide__content">
+                              <div class="slide__info flex-md-wrap d-md-flex justify-content-between align-items-center">
+                                <h3 class="slide__name">Диана апасова</h3>
+                                <a class="slide__link" href="#">vk.com/apasova</a>
+                                <p class="slide__route">Москва → София</p>
+                              </div>
+                              <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+                          </div>
+                      </div>
+                      <div class="slide text-center d-md-flex">
+                        <img class="slide__img" src="images/photo.png">
+                          <div class="slide__content">
+                              <div class="slide__info flex-md-wrap d-md-flex justify-content-between align-items-center">
+                                <h3 class="slide__name">Диана апасова</h3>
+                                <a class="slide__link" href="#">vk.com/apasova</a>
+                                <p class="slide__route">Москва → София</p>
+                              </div>
+                              <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+                          </div>
+                      </div> 
+                    </div>
+                  </div>  
+              </div>  
+          </div>
+      </div> 
+  </div>
+</section>
+  <!-- Шестая секция -->
+  <section id="question" class="question">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 ml-lg-auto mr-lg-auto">
+              <h3 class="question__title">
+                Есть вопросы <br> по переезду в болгарию?
+              </h3>
+            </div>  
         </div>
+            <div class="row">
+              <div class="col-lg-4 ml-lg-auto mr-lg-auto">
+                <div class="question__text">
+                  Мы проконсультируем <br> Вас бесплатно!
+                </div>
+                 <img class="question__image" src="images/arrow.png" alt="pictures">
+              </div> 
+            </div>
+          <div class="row">
+            <div class="col ">
+              <form id="popupResult" class="js-form">
+                <input type="text" name="name" placeholder="Имя" class="name decoration"> 
+                <input type="email" placeholder="E-Mail" placeholder="E-Mail" name="email" class="mail decoration">
+                <input type="tel" name="tel"  placeholder="Телефон" class="phone decoration">
+                <button class="question_btn" data-submit>Заказать консультацию</button>
+              </form>  
+            </div> 
+          </div>
+        </div>      
+  </section>
+  <!-- Футер -->
+    <footer>
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-4 col-md-3 col-lg-2 text-center text-sm-left">
+                <a href="#">
+                  <img  src="images/logo.png" alt="Compass">
+                </a>
+            </div>
+            <div class="col-sm-5 ml-sm-auto col-md-4 col-lg-3 align-items-center d-flex">
+                <div class="footer__corp">
+                  2016 / Все права защищены 
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-3 d-none d-md-flex align-items-center">
+                <div class="footer__political">
+                  Политика конфиденциальности
+                </div>
+            </div>
+                <div class="col-lg-3 align-items-center d-none d-lg-flex">
+                  <div class="footer__phones d-flex align-items-center">
+                    <button class="phone__color-white">
+                      <i class="fa fa-phone" aria-hidden="true"></i>
+                    </button>
+                  <ul class="phones__list">
+                    <li class="phones__item">
+                      <a href="#">
+                        +7 (495) 12-321-345
+                      </a>
+                    </li>  
+                    <li>
+                      <a href="#">
+                        +7 (495) 12-321-345
+                      </a>
+                    </li>  
+                  </ul>
+                  </div>
+                </div>  
+              </div>  
+          </div>
+  </footer>
+<!-- Modal Window -->
+<div class="modal">
+      <div class="box-modal" id="exampleModal">
+          <div class="box-modal_close arcticmodal-close">
+            x
+          </div>
+          <h5 class="title-modal">
+            Заказать обратный звонок
+          </h5>
+          <p class="text-modal">
+            Отправьте свой номер телефона и мы Вам позвоним!
+          </p>
+          <form id="popupResultModal" action="success.php" class="js-form">
+            <input type="hidden" name="target" class="decoration-form">
+            <input type="text" name="name" placeholder="Имя" required class="decoration-form">
+            <input type="tel" name="tel" placeholder="Телефон" required class="decoration-form">
+        <button class="form-btn" data-submit="">
+          Отправить
+        </button>
+      </form>
     </div>
-</div>
-<footer class="container-fluid text-center">
-    <a href="#myPage" title="To Top">
-        <span class="glyphicon glyphicon-chevron-up"></span>
-    </a>
-    <p>Bootstrap Theme </p>
-</footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            // Add smooth scrolling to all links in navbar + footer link
-            $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
-
-                    // Store hash
-                    var hash = this.hash;
-
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 900, function(){
-
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        window.location.hash = hash;
-                    });
-                } // End if
-            });
-
-            $(window).scroll(function() {
-                $(".slideanim").each(function(){
-                    var pos = $(this).offset().top;
-
-                    var winTop = $(window).scrollTop();
-                    if (pos < winTop + 600) {
-                        $(this).addClass("slide");
-                    }
-                });
-            });
-        })
-    </script>
+  </div>  
+  <div id="loader">
+    <img src="images/loading.gif" alt="Spin" title="Spin">
+  </div>
+  <div id="overlay">
+    <div id="thx">
+      <h5 class="thx-title">
+        Спасибо!
+      </h5>
+      <img class="confirm" src="images/confirm.png">
+      <p class="thx-text">
+        Наш консультант, обязательно свяжется с Вами!
+      </p>
+    </div>
+  </div>
+  <script src="js/jquery-3.2.0.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
